@@ -1,0 +1,10 @@
+Files already downloaded and verified
+Files already downloaded and verified
+load resnet18...
+
+  0%|          | 0/200 [00:00<?, ?it/s]
+  0%|          | 0/200 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/ibex/user/huj0b/project/2024-RateRegularizer/sgd_rate_reg_epoch_new.py", line 138, in <module>
+    loss = batch_loss + regularizer
+NameError: name 'regularizer' is not defined
